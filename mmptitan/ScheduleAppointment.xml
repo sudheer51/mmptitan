@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+  <test thread-count="5" name="Test">
+  <parameter name="doctor" value="Beth" />
+  <parameter name="specialization" value="Pediatrician" />
+  <parameter name="sym" value="fever and cold" />
+  <parameter name="duration" value="30" />
+  
+    <classes>
+      <class name="org.iit.healthcare.mmptitan.tests.ScheduleAppointmentTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
